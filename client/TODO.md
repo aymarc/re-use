@@ -2,7 +2,10 @@
         a. [] Web component 
         b. [] Script to work with any form
         GOAL: To create a form that can use to submit data to a server and also a separate script that
-                will handle any form submission
+                will handle any form submission.
+                - The custom Html form will take an attribute='genConfig', json configuration to generate the   form
+                - Or the custom html form will take an attribute='targetById', an array ids in the string format
+                - Or the custom html form will take an attribute='targetByClass', a class that is given to all desired forms 
 2. [] Complete reusable data table (#002)
 3. [] Data List (#003)
         a. [] Self Managed List
