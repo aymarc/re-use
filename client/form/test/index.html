@@ -122,8 +122,14 @@
     </header>
     <main>
         <!-- Place your test elements here -->
+        <label>Star element</label>
+        <aln-star max="5" min="2" color_default="#ccc" color_onselect="red" size="10" id="star-rate"></aln-star>
+        <br /> <br />
+        <label>Swiper element</label>
+        <aln-swiper max="100" height="20" width="100" min="0" color_default="#ccc" color_onselect="purple"></aln-swiper>
+        <br /> <br />
 
-        <aln-star max="5" min="2" color_default="#ccc" color_onselect="#f39c12" size="10"></aln-star>
+
     </main>
     <footer>
         <div class="social-media">
@@ -136,6 +142,12 @@
         </div>
     </footer>
     <script src="../form.js"></script>
+    <script>
+        const rate = document.getElementById("star-rate");
+        rate.addEventListener("change", (e) => {
+            console.log("rate e: ", e)
+        })
+    </script>
 </body>
 
 </html>
