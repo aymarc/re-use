@@ -81,6 +81,11 @@
             margin: 0 0.5em;
         }
 
+        main {
+
+            min-height: 150vh
+        }
+
         @media (max-width: 600px) {
             .header-upper {
                 flex-direction: column;
@@ -129,7 +134,13 @@
         <aln-swiper max="100" height="20" width="100" min="0" color_default="#ccc" color_onselect="purple"></aln-swiper>
         <br /> <br />
 
+        <label>File element</label>
+        <aln-file></aln-file>
+        <br /> <br />
 
+        <label>Profile element</label>
+        <aln-profile-old isround="true" croppersize="100"></aln-profile-old>
+        <br /> <br />
     </main>
     <footer>
         <div class="social-media">
