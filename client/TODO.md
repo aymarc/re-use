@@ -2,6 +2,8 @@
         a. [] Web component 
                 1. [x] Star Custom Element
                 2. [x] Swiper Custom Element
+                3. [x] Profile Image Upload Custom Element
+                4. [] File Upload Custom Element
         b. [] Script to work with any form
         GOAL: To create a form that can use to submit data to a server and also a separate script that
                 will handle any form submission.
