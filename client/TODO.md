@@ -4,6 +4,8 @@
                 2. [x] Swiper Custom Element
                 3. [x] Profile Image Upload Custom Element
                 4. [] File Upload Custom Element
+                        1- [x] Load in memory
+                        2- [] Upload to server directly.
         b. [] Script to work with any form
         GOAL: To create a form that can use to submit data to a server and also a separate script that
                 will handle any form submission.
